@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* nav start */
+
+nav, ul{
+    display: flex;
+}
+
+nav{
+    width:100%;
+    height: 10vh;
+    margin: auto;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+nav>ul>li:hover> ul{
+    display: block;
+}
+.dropdown{ 
+    display: none;
+    position: absolute;
+    background-color: rgb(115, 114, 226);
+    padding: 0;
+}
+
+.dropdown li{
+    padding:0 20px;
+    margin: 0;
+}
+
+nav img{
+    width: 20%;
+}
+
+nav ul li:hover{
+    background-color: rgb(117, 231, 231);
+    
+}
+
+
+/* nav end */
+
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 2px solid black;
+    padding: 0 10px;
+}
+
+/* home */
+
+.para{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.fontawsome a{
+    font-size: 50px;
+    margin-right: 20px;
+}
+#fontawsome1 {
+    color: blue;
+}
+#fontawsome2 {
+    color: rgb(255, 60, 0);
+}
+#fontawsome3 {
+    color: rgb(42, 180, 24);
+}
+
+/* home end */

@@ -1,0 +1,7 @@
+echo "# modul-seven-day" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yousufmiah/modul-seven-day.git
+git push -u origin main
